@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;600&display=swap");
+
+:root{
+    --clr-darkCyan: hsl(158, 36%, 37%);
+    --clr-cream: hsl(30, 38%, 92%);
+    --clr-darkBlue: hsl(212, 21%, 14%);
+    --clr-grayishBlue: hsl(228, 12%, 48%);
+    --clr-white: hsl(0, 0%, 100%);
+
+    --ff-Monsterrat: "Monsterrat", sans-serif;
+    --ff-Fraunces: "Fraunces", sans-serif;
+}
+
+body{
+    background-color: var(--clr-cream);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    background-color: var(--clr-white);
+    width: 500px;
+    height: 300px;
+    border-radius: 7px;
+}
+
+.left{
+    float: left;
+    width: 50%;
+}
+
+.right{
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
+
+img{
+    height: 300px;
+    border-radius: 7px 0px 0px 7px;
+    width: 250px;
+}
