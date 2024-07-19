@@ -30,6 +30,10 @@ body{
     border-radius: 7px;
 }
 
+.left{
+    float: left;
+    width: 50%;
+}
 
 .right{
     float: right;
@@ -43,8 +47,6 @@ img{
     height: 360px;
     border-radius: 7px 0px 0px 7px;
     width: 240px;
-    float: left;
-    width: 50%;
 }
 
 p#topPara{
