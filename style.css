@@ -9,16 +9,12 @@
 
     --ff-Monsterrat: "Monsterrat", sans-serif;
     --ff-Fraunces: "Fraunces", sans-serif;
+
+    --fs: 14px;
 }
 
 body{
     background-color: var(--clr-cream);
-}
-
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .card{
@@ -29,8 +25,8 @@ main{
     transform: translate(-50%, -50%);
     margin: auto;
     background-color: var(--clr-white);
-    width: 500px;
-    height: 300px;
+    width: 480px;
+    height: 360px;
     border-radius: 7px;
 }
 
@@ -42,11 +38,66 @@ main{
 .right{
     float: right;
     width: 50%;
-    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
 }
 
 img{
-    height: 300px;
+    height: 360px;
     border-radius: 7px 0px 0px 7px;
-    width: 250px;
+    width: 240px;
+}
+
+p#topPara{
+    font-family: var(--ff-Monsterrat);
+    letter-spacing: 5px;
+    font-size: 10px;
+    padding-top: 15px;
+}
+
+h1{
+    font-size: 28px;
+    font-family: var(--ff-Fraunces);
+    line-height: 28px;
+    color: var(--clr-darkBlue);
+}
+
+p#btmPara{
+    font-family: var(--ff-Monsterrat);
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+.price{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.discPrice{
+    color: var(--clr-darkCyan);
+    font-family: var(--ff-Fraunces);
+    font-size: 26px;
+}
+
+.oriPrice{
+    padding-left: 20px;
+    font-family: var(--ff-Monsterrat);
+    font-size: 10px;
+}
+
+.btn{
+    background-color: var(--clr-darkCyan);
+    color: var(--clr-white);
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+    font-family: var(--ff-Monsterrat);
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    padding: 12px;
 }
